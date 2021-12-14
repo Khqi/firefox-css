@@ -295,7 +295,7 @@ tab { font-family: 'UbuntuMono Nerd Font', monospace; border: none; }
 .titlebar-buttonbox-container { display: none; }
 
 .tabbrowser-tab[selected]:not(:hover):not([pinned]) .tab-label-container,
-#tabbrowser-tabs:not([closebuttons="activetab"]) .tabbrowser-tab:not(:hover):not([pinned]) .tab-label-container{ margin-inline-end: 0px }
+#tabbrowser-tabs:not([closebuttons="activetab"]) .tabbrowser-tab:not(:hover):not([pinned]) .tab-label-container{ margin-left: 20px }
 .tab-content:not([pinned])::before{
   display: -moz-box;
   content: "";
